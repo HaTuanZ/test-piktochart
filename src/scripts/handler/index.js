@@ -24,3 +24,4 @@ let imageShow = async (params = {}) => {
   });
 };
 imageShow();
+getCanvasCache();
