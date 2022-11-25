@@ -55,6 +55,6 @@ server.use(express.static('./'))
     .get('/', (req, res) => {
         res.sendFile(__dirname + '/index.html')
     })
-    .listen(8000, () => {
-        console.log('Server started. listening to 8000')
+    .listen(8989, () => {
+        console.log('Server started. listening to 8989')
     })

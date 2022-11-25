@@ -1,4 +1,4 @@
-const ENDPOINT_ENV = "http://localhost:8000";
+const ENDPOINT_ENV = "http://localhost:8989";
 
 const GETIMAGE_API = async (params = {}) => {
   return await fetch(`${ENDPOINT_ENV}/images?` + new URLSearchParams(params))
