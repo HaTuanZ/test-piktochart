@@ -56,10 +56,10 @@ function createDragElement(elmnt) {
     elmnt.style.left = left + "px";
     // }
     if (top < 0 || left < 0 || top > cH - eH || left > cW - eW) {
-      alertRemove.innerText = "Remove Item!";
+      alertRemove.innerText = "Remove this item!";
       isRemove = true;
     } else {
-      alertRemove.innerText = "Drag outside to remove Item";
+      alertRemove.innerText = "Drag outside to remove item";
       isRemove = false;
     }
     elmnt.style.cursor = "move";
